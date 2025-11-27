@@ -11,5 +11,10 @@ class UserInputValidator:
                 pass
         return valid_integers
 
-
+    def display_message(self, values):
+        valid_v = self.validate_positvie_integers(values)
+        if valid_v:
+            print(f"list is validated, and contain the positive numbers: {valid_v} ")
+        else:
+            print('no positive numbers found ')
 
