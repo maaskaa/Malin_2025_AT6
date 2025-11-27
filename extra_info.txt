@@ -1,0 +1,3 @@
+The class "UserInputValidator" takes a list and return the positive values. 
+if the list contains positive numbers, you get an validation message "list is validated, and contain the positive numbers: " 
+and the positive values in the list. or else you get "no positive numbers found" if your list does not contain positive numbers. 
